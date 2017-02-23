@@ -35,4 +35,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_dependency "simple_form"
+  spec.add_dependency "rails_language_select"
 end
