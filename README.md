@@ -25,7 +25,7 @@ Or install it yourself as:
 Simple usage:
 
 ```ruby
-= f.input :language_code, as: :language
+f.input :language_code, as: :language
 ```
 
 Supplying priority countries to be placed at the top of the list:
