@@ -28,10 +28,10 @@ Simple usage:
 f.input :language_code, as: :language
 ```
 
-Supplying priority countries to be placed at the top of the list:
+Supplying priority languages to be placed at the top of the list:
 
 ```ruby
-f.input :language_code, as: :language, priority_countries: ["EN", "FR", "DE"]
+f.input :language_code, as: :language, priority_languages: ["EN", "FR", "DE"]
 ```
 
 Supplying only certain languages:
