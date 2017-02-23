@@ -1,6 +1,6 @@
 # Simple Form Language Input
 
-Simple Form input component for displaying a localised <select> of languages using the ISO 369 standard or your own custom data source.
+Simple Form input component for displaying a localised `<select>` of languages using the ISO 369 standard or your own custom data source.
 
 Uses: https://github.com/kasparsj/rails_language_select
 
