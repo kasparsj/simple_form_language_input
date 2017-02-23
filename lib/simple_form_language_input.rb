@@ -1,4 +1,5 @@
 require 'simple_form'
+require 'rails_language_select'
 
 require "simple_form_language_input/version"
 
