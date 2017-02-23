@@ -33,6 +33,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec-rails", "~> 3.5"
+  spec.add_development_dependency 'pry', '~> 0'
+  spec.add_development_dependency 'pry-nav'
 
   spec.add_dependency "simple_form"
   spec.add_dependency "rails_language_select"

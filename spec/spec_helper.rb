@@ -1,5 +1,8 @@
-require "bundler/setup"
-require "simple_form_language_input"
+require 'pry'
+
+ENV["RAILS_ENV"] ||= "test"
+require 'rails/all'
+require 'rspec/rails'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
