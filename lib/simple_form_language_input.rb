@@ -12,6 +12,10 @@ module SimpleForm
       def input_type
         :language
       end
+      def input_priority
+        input_priority = super
+        input_priority.call if input_priority.lambda?
+      end
     end
   end
 end
