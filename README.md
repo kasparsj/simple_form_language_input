@@ -46,12 +46,6 @@ Discarding certain languages:
 f.input :language_code, as: :language, except: ["EN", "FR", "DE"]
 ```
 
-Pre-selecting a particular language:
-
-```ruby
-f.input :language_code, as: :language, selected: "EN"
-```
-
 Using existing `select` options:
 ```ruby
 f.input :language_code, as: :language, include_blank: true
