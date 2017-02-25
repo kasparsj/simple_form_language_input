@@ -15,7 +15,10 @@ module SimpleForm
       end
       def input_priority
         input_priority = super
-        input_priority.call if input_priority.try(:lambda?) === true
+        if input_priority.respond_to? :call
+          input_priority = input_priority.call
+        end
+        input_priority
       end
     end
   end

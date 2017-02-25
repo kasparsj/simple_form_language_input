@@ -31,7 +31,7 @@ f.input :language_code, as: :language
 Supplying priority languages to be placed at the top of the list:
 
 ```ruby
-f.input :language_code, as: :language, priority_languages: ["EN", "FR", "DE"]
+f.input :language_code, as: :language, priority: ["EN", "FR", "DE"]
 ```
 
 Supplying only certain languages:
@@ -61,7 +61,7 @@ f.input :language_code, as: :language, include_blank: 'Select a language', input
 Supplying additional html options:
 
 ```ruby
-f.input :language_code, as: :language, priority_languages: ["EN", "FR"], selected: "EN", input_html: { class: 'form-control', data: { attribute: "value" } })
+f.input :language_code, as: :language, priority: ["EN", "FR"], selected: "EN", input_html: { class: 'form-control', data: { attribute: "value" } })
 ```
 
 ## License
