@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kaspars"]
   spec.email         = ["kasparsj@gmail.com"]
 
-  spec.summary       = "Simple Form language input"
-  spec.description   = "Simple Form language input"
+  spec.summary       = "Simple Form input component for displaying a localised <select> of languages"
+  spec.description   = "Simple Form input component for displaying a localised <select> of languages using the ISO 369 standard or your own custom data source."
   spec.homepage      = "https://github.com/kasparsj/simple_form_language_input"
   spec.license       = "MIT"
 
