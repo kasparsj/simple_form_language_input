@@ -55,7 +55,7 @@ f.input :language_code, as: :language, include_blank: 'Select a language', input
 Supplying additional html options:
 
 ```ruby
-f.input :language_code, as: :language, priority: ["EN", "FR"], selected: "EN", input_html: { class: 'form-control', data: { attribute: "value" } })
+f.input :language_code, as: :language, priority: ["EN", "FR"], input_html: { class: 'form-control', data: { attribute: "value" } })
 ```
 
 ## License
